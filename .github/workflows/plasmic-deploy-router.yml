@@ -1,0 +1,29 @@
+name: Plasmic Deployment Router
+on:
+  repository_dispatch:
+    types: [plasmic-publish]
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    env:
+      CF_DEPLOY_HOOK_LIVE: ${{ secrets.CF_DEPLOY_HOOK_LIVE }}
+      CF_DEPLOY_HOOK_STAGING: ${{ secrets.CF_DEPLOY_HOOK_STAGING }}
+      # Adjust the path if Plasmic's payload differs
+      PLASMIC_TAGS: ${{ toJson(github.event.client_payload.version.tags) }}
+    steps:
+      - name: Match Plasmic tags
+        id: tags
+        run: |
+          echo "Tags: $PLASMIC_TAGS"
+          has() { echo "$PLASMIC_TAGS" | jq -e --arg t "$1" '[.] | flatten | index($t) != null' >/dev/null; }
+          echo "live=$(has live && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "staging=$(has staging && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Trigger Cloudflare deploy (live)
+        if: steps.tags.outputs.live == 'true'
+        run: curl -fsS -X POST "${CF_DEPLOY_HOOK_LIVE:?CF_DEPLOY_HOOK_LIVE secret is not set}"
+
+      - name: Trigger Cloudflare deploy (staging)
+        if: steps.tags.outputs.staging == 'true'
+        run: curl -fsS -X POST "${CF_DEPLOY_HOOK_STAGING:?CF_DEPLOY_HOOK_STAGING secret is not set}"
