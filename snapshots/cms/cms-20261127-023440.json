@@ -1,0 +1,1011 @@
+{
+  "cmsId": "3TSs38is2QDm5bgR2BVffE",
+  "pulledAt": "2026-11-27T02:34:40.805Z",
+  "models": [
+    {
+      "identifier": "galleryCategories",
+      "name": "Gallery Categories",
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "text",
+            "hidden": false,
+            "unique": false,
+            "required": true,
+            "localized": false,
+            "helperText": "",
+            "identifier": "categoryName",
+            "defaultValueByLocale": {}
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "gDi69zXHttwLw7HHQm8M9w",
+          "createdAt": "2026-10-21T02:41:02.144Z",
+          "updatedAt": "2026-10-21T02:41:24.069Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Fabrics"
+          }
+        },
+        {
+          "id": "oTXUn4Dziyq9jZHJYppCmn",
+          "createdAt": "2026-10-21T01:27:34.590Z",
+          "updatedAt": "2026-10-21T01:28:01.622Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Oil"
+          }
+        },
+        {
+          "id": "ipPMqANqRf3xuSm5BjEBDf",
+          "createdAt": "2026-10-21T01:27:25.316Z",
+          "updatedAt": "2026-10-21T01:27:56.829Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Watercolor"
+          }
+        },
+        {
+          "id": "ebYokxQe1oL8pXGq336Wjb",
+          "createdAt": "2026-10-21T01:04:04.494Z",
+          "updatedAt": "2026-10-21T01:04:37.528Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Multidisciplinary"
+          }
+        },
+        {
+          "id": "ip44LabajycKyqpFa4PSDz",
+          "createdAt": "2026-10-21T01:02:52.833Z",
+          "updatedAt": "2026-10-21T01:04:39.473Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Graphite"
+          }
+        },
+        {
+          "id": "aAZkuccdKoWxhYde8JsPsd",
+          "createdAt": "2026-10-20T05:25:05.559Z",
+          "updatedAt": "2026-10-20T05:25:36.100Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "3D Work"
+          }
+        },
+        {
+          "id": "2eqsPMHcAxx2qvCqDJBP5z",
+          "createdAt": "2026-10-20T03:44:44.460Z",
+          "updatedAt": "2026-10-20T03:50:03.230Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Uncategorized"
+          }
+        },
+        {
+          "id": "ssxknMr9btEqH6YA5TX6FE",
+          "createdAt": "2026-10-20T03:42:40.933Z",
+          "updatedAt": "2026-10-21T02:56:22.472Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Digital Graphics"
+          }
+        },
+        {
+          "id": "24FTBizGuCSAVZKE7r1srV",
+          "createdAt": "2026-10-20T03:42:06.681Z",
+          "updatedAt": "2026-10-21T01:27:52.779Z",
+          "identifier": null,
+          "data": {
+            "categoryName": "Acrylic"
+          }
+        }
+      ]
+    },
+    {
+      "identifier": "galleryItems",
+      "name": "Gallery Items",
+      "schema": {
+        "fields": [
+          {
+            "name": "",
+            "type": "image",
+            "hidden": false,
+            "unique": false,
+            "required": true,
+            "localized": false,
+            "helperText": "",
+            "identifier": "image",
+            "defaultValueByLocale": {}
+          },
+          {
+            "name": "",
+            "type": "ref",
+            "hidden": false,
+            "unique": false,
+            "tableId": "jgNHGcdxydxM5m7g5yW2QJ",
+            "required": true,
+            "localized": false,
+            "helperText": "",
+            "identifier": "category",
+            "defaultValueByLocale": {
+              "": "2eqsPMHcAxx2qvCqDJBP5z"
+            }
+          },
+          {
+            "name": "",
+            "type": "text",
+            "hidden": false,
+            "unique": false,
+            "required": true,
+            "localized": false,
+            "helperText": "",
+            "identifier": "title",
+            "defaultValueByLocale": {}
+          },
+          {
+            "name": "",
+            "type": "number",
+            "hidden": false,
+            "unique": false,
+            "required": false,
+            "localized": false,
+            "helperText": "",
+            "identifier": "sort",
+            "defaultValueByLocale": {
+              "": 0
+            }
+          },
+          {
+            "name": "",
+            "type": "date-time",
+            "hidden": false,
+            "unique": false,
+            "required": true,
+            "localized": false,
+            "helperText": "",
+            "identifier": "projectDate",
+            "defaultValueByLocale": {
+              "": "2026-10-21T01:14:29.000Z"
+            }
+          },
+          {
+            "name": "",
+            "type": "rich-text",
+            "hidden": false,
+            "unique": false,
+            "required": false,
+            "localized": false,
+            "helperText": "",
+            "identifier": "notes",
+            "defaultValueByLocale": {}
+          }
+        ]
+      },
+      "rows": [
+        {
+          "id": "fgpd9MC8nwxNpr7ECYUBF2",
+          "createdAt": "2026-11-26T22:01:55.373Z",
+          "updatedAt": "2026-11-27T02:29:23.587Z",
+          "identifier": "Masks",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/5cd00f92a254246d1875997091c1b0ea.png",
+              "name": "Masks_2012.png",
+              "size": 983527,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 780,
+                "height": 546
+              }
+            },
+            "category": "ipPMqANqRf3xuSm5BjEBDf",
+            "title": "Masks",
+            "sort": 0,
+            "projectDate": "2012-03-09T02:14:29.000Z",
+            "notes": "<p>Medium: Watercolor, Crayons, Salt</p>"
+          }
+        },
+        {
+          "id": "jQWo7QcsKUwtPf5ZkC9RBJ",
+          "createdAt": "2026-11-26T21:31:38.784Z",
+          "updatedAt": "2026-11-26T22:16:58.172Z",
+          "identifier": "Pink Lady",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/712cc84d7f77285d1d1953b30096b595.png",
+              "name": "Pink lady_2.png",
+              "size": 958914,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 818,
+                "height": 614
+              }
+            },
+            "category": "2eqsPMHcAxx2qvCqDJBP5z",
+            "title": "Pink Lady",
+            "sort": 0,
+            "projectDate": "2025-04-19T01:14:29.000Z",
+            "notes": "<p>Illustration</p>\n<p>Medium: Watercolor</p>"
+          }
+        },
+        {
+          "id": "a3LxpyJWKbQYz3itKtfLKA",
+          "createdAt": "2026-11-24T02:29:00.151Z",
+          "updatedAt": "2026-11-26T22:15:08.709Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/2c7a2ce0865250a00e3a48b748100da6.png",
+              "name": "Logic Certificates Lumi mockup_2.png",
+              "size": 833866,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 887,
+                "height": 665
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "Logic Certificates",
+            "sort": 0,
+            "projectDate": "2026-05-25T01:14:29.000Z",
+            "notes": "<p>Theater Prop</p>\n<p>Medium: Digital, Print</p>"
+          }
+        },
+        {
+          "id": "3JWXqJNzoYfjLTjTh1N6BR",
+          "createdAt": "2026-11-24T02:27:58.444Z",
+          "updatedAt": "2026-11-26T22:15:13.905Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/6b1341a9fd1c25813976a53fa97d60c2.png",
+              "name": "CSC mockup copy square sharpened_2.png",
+              "size": 961646,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 835,
+                "height": 832
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "CSC Student Questionnaires",
+            "sort": 0,
+            "projectDate": "2026-04-21T01:14:29.000Z",
+            "notes": "<p>Medium: Digital, Print</p>"
+          }
+        },
+        {
+          "id": "crfPpbceFDCStxhgxGGY8Z",
+          "createdAt": "2026-11-19T23:15:46.548Z",
+          "updatedAt": "2026-11-26T22:19:49.186Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/cae857ed541b32c8e0e2ed76f31e56e3.png",
+              "name": "SKAZKI CMYK.png",
+              "size": 995985,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1020,
+                "height": 1320
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "Skazki Poster",
+            "sort": 0,
+            "projectDate": "2024-06-28T01:14:29.000Z",
+            "notes": "<p>Poster and Advertisement of a Play for Russian News Paper</p>\n<p>Medium: Digital</p>"
+          }
+        },
+        {
+          "id": "31Tsz3k2N4SEYE4J3NECWN",
+          "createdAt": "2026-11-19T23:14:13.341Z",
+          "updatedAt": "2026-11-26T22:20:27.615Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/9122fbe20adc3dee99bfda292fa100e6.png",
+              "name": "Chairs_2021.png",
+              "size": 965948,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1237,
+                "height": 862
+              }
+            },
+            "category": "ip44LabajycKyqpFa4PSDz",
+            "title": "Chairs",
+            "sort": 0,
+            "projectDate": "2022-03-05T02:14:29.000Z",
+            "notes": "<p>4 Illustrations</p>\n<p>Medium: Pencil Crayons</p>"
+          }
+        },
+        {
+          "id": "cUFMboNStiSHSasscYQWwV",
+          "createdAt": "2026-11-19T23:11:58.870Z",
+          "updatedAt": "2026-11-24T19:36:52.013Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/f947fa0cbf4af89375d6effec2b54378.png",
+              "name": "Arch of loliness_2021.png",
+              "size": 925109,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 713,
+                "height": 951
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Arch of loneliness ",
+            "sort": 0,
+            "projectDate": "2021-12-11T02:14:29.000Z",
+            "notes": "<p>Medium: Wood, Paper-mache, Acrylic, Dirt</p>"
+          }
+        },
+        {
+          "id": "hkbX9EADgfwwmeLTp42zVH",
+          "createdAt": "2026-11-19T23:08:36.594Z",
+          "updatedAt": "2026-11-24T19:40:42.690Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/baa5fd66d848d13bf93418f803f2eb0e.gif",
+              "name": "Ph-Light-gif.gif",
+              "size": 1443172,
+              "mimetype": "image/gif",
+              "imageMeta": {
+                "width": 547,
+                "height": 15576
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Physalis Fruit Light",
+            "sort": 0,
+            "projectDate": "2026-04-16T23:11:23.000Z",
+            "notes": "<p>Meduim: Wood, Coper Wire, 3D Print, Laser Cut&nbsp;</p>"
+          }
+        },
+        {
+          "id": "vwBzJH6uA2iN2L2erSuG7f",
+          "createdAt": "2026-11-19T23:04:51.174Z",
+          "updatedAt": "2026-11-24T19:38:31.930Z",
+          "identifier": null,
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/bb2a99db2e4d36eae3d6f3615299e330.png",
+              "name": "Jewerly box_2023.png",
+              "size": 1005948,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1139,
+                "height": 1139
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Jewelry Box",
+            "sort": 0,
+            "projectDate": "2023-03-17T01:14:29.000Z",
+            "notes": "<p>Medium: Wood</p>"
+          }
+        },
+        {
+          "id": "quHScumjDxqucQ3Lggbb7E",
+          "createdAt": "2026-10-21T02:50:06.056Z",
+          "updatedAt": "2026-11-26T22:10:48.393Z",
+          "identifier": "Max Duman & Radio Saraksh Poster",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/4f67585e0b1febc25e7c0bead3d40d8a.png",
+              "name": "Final Concert Poster_2026.png",
+              "size": 955841,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 750,
+                "height": 1110
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "Max Duman & Radio Saraksh Poster",
+            "projectDate": "2026-10-22T01:14:29.000Z",
+            "notes": "<p>Concert Poster</p>\n<p>Medium: Digital</p>"
+          }
+        },
+        {
+          "id": "qFvqq9FHyVHkW8AhKP5MLc",
+          "createdAt": "2026-10-21T02:48:57.086Z",
+          "updatedAt": "2026-11-24T19:47:39.700Z",
+          "identifier": "Kearney Mountains",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/ca654e8cfdc26f082e168b71bd31088b.png",
+              "name": "Kearney_Mountains_Transparent Background_2026.png",
+              "size": 939281,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1056,
+                "height": 594
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "Kearney Mountains",
+            "projectDate": "2026-08-08T01:14:29.000Z",
+            "notes": "<p>Hero Illustrtion for Kearney Funeral Services</p>\n<p>Medium: Digital</p>"
+          }
+        },
+        {
+          "id": "fhCW2UEqcEyYDQ74ZQ8mUd",
+          "createdAt": "2026-10-21T02:47:57.189Z",
+          "updatedAt": "2026-11-24T19:47:33.353Z",
+          "identifier": "Felted Acorns",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/4447c912ba0de9eb3803eaeab2b94c90.png",
+              "name": "Felted Acorns Color Fix.png",
+              "size": 901059,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1088,
+                "height": 1089
+              }
+            },
+            "category": "ebYokxQe1oL8pXGq336Wjb",
+            "title": "Felted Acorns",
+            "projectDate": "2022-05-20T01:14:29.000Z",
+            "notes": "<p>Medium: Needle Felting</p>"
+          }
+        },
+        {
+          "id": "8MHrm44F2Y6Vqunv4QbxB8",
+          "createdAt": "2026-10-21T02:46:53.317Z",
+          "updatedAt": "2026-11-26T22:26:35.013Z",
+          "identifier": "Keys",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/374047dd18648689221d93efe19afe47.png",
+              "name": "Keys_Graphite_2023.png",
+              "size": 789900,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 706,
+                "height": 566
+              }
+            },
+            "category": "ip44LabajycKyqpFa4PSDz",
+            "title": "Keys",
+            "projectDate": "2023-01-21T03:47:49.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Graphite</p>"
+          }
+        },
+        {
+          "id": "8D9mbP3DXdaQ9rz4RTNXK9",
+          "createdAt": "2026-10-21T02:45:54.715Z",
+          "updatedAt": "2026-11-24T19:49:31.448Z",
+          "identifier": "Girl with a peach",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/c521dd30e67d04b4be1e46a14960b16b.png",
+              "name": "Girl with a peach_2022.png",
+              "size": 896223,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1020,
+                "height": 1020
+              }
+            },
+            "category": "ipPMqANqRf3xuSm5BjEBDf",
+            "title": "Girl with a peach",
+            "projectDate": "2023-10-19T01:14:29.000Z",
+            "notes": "<p>Illustration</p>\n<p>Medium: Watercolor</p>"
+          }
+        },
+        {
+          "id": "sh6NSg47p3kaxRH8GvuGhg",
+          "createdAt": "2026-10-21T02:45:01.147Z",
+          "updatedAt": "2026-11-26T22:28:43.728Z",
+          "identifier": "Acorn House",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/f7b6a378e3aa84f3f2d6283bba38841f.png",
+              "name": "Acorn house_Paper mache_2022.png",
+              "size": 661287,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1313,
+                "height": 1313
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Acorn House",
+            "sort": 0,
+            "projectDate": "2021-11-18T02:14:29.000Z",
+            "notes": "<p>Fantasy House Model</p>\n<p>Medium: News Paper Stuffed Millboard Model with Paper-mache</p>"
+          }
+        },
+        {
+          "id": "nksLricdNwBJ9enRFFXc4G",
+          "createdAt": "2026-10-21T02:42:30.421Z",
+          "updatedAt": "2026-11-24T20:22:24.006Z",
+          "identifier": "Dragon Plushy",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/b8bcf07b33d054f5b30f02ae632fdc2e.png",
+              "name": "Dragon Plushie_Side_2022.png",
+              "size": 586187,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1443,
+                "height": 961
+              }
+            },
+            "category": "gDi69zXHttwLw7HHQm8M9w",
+            "title": "Dragon Plushy",
+            "sort": 0,
+            "projectDate": "2022-05-21T01:14:29.000Z",
+            "notes": "<p>Medium: Textile</p>"
+          }
+        },
+        {
+          "id": "gmum9MNjfWCSm2VbP5Az7U",
+          "createdAt": "2026-10-21T02:39:51.613Z",
+          "updatedAt": "2026-11-24T20:22:59.609Z",
+          "identifier": "Sewn Embroidery Bag",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/2048edeef3d03fcf8a008b0b329cb4be.png",
+              "name": "Sew bag with dragon embroidery_2022.png",
+              "size": 783090,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1557,
+                "height": 1557
+              }
+            },
+            "category": "gDi69zXHttwLw7HHQm8M9w",
+            "title": "Sewn Embroidery Bag",
+            "sort": 0,
+            "projectDate": "2021-11-06T01:14:29.000Z",
+            "notes": "<p>Meduim: Textile</p>"
+          }
+        },
+        {
+          "id": "ebcgF6Xgmqrrm9KKKg9LCE",
+          "createdAt": "2026-10-21T02:38:19.921Z",
+          "updatedAt": "2026-11-24T20:26:53.265Z",
+          "identifier": "Figure #01",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/882576152e08a50731aa173380dd14a4.png",
+              "name": "Woman_Live drawing class practice_oil_2023.png",
+              "size": 797279,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 820,
+                "height": 1026
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Figure #01",
+            "sort": 0,
+            "projectDate": "2023-01-12T02:14:29.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "9fGXWmR3eP5SzZX2b4Qr1P",
+          "createdAt": "2026-10-21T02:36:44.487Z",
+          "updatedAt": "2026-11-24T20:37:59.385Z",
+          "identifier": "Figure #04",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/81241db016e922ae18b8184ca5c8379e.png",
+              "name": "Live drawing class practice_oil_2023.png",
+              "size": 811100,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1080,
+                "height": 810
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Figure #04",
+            "sort": 0,
+            "projectDate": "2023-03-16T01:14:29.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "6VbFyQJWTYcMM81K7kLTzf",
+          "createdAt": "2026-10-21T01:48:28.375Z",
+          "updatedAt": "2026-11-24T20:28:03.780Z",
+          "identifier": "Highschool Art Classroom",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/898a6bb52b87115cc0a8830fd57e7bea.png",
+              "name": "My Highschool Art Classroom_2022.png",
+              "size": 1468453,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1364,
+                "height": 764
+              }
+            },
+            "category": "ipPMqANqRf3xuSm5BjEBDf",
+            "title": "Highschool Art Classroom",
+            "sort": 0,
+            "projectDate": "2022-06-09T01:14:29.000Z",
+            "notes": "<p>Medium: Watercolor</p>"
+          }
+        },
+        {
+          "id": "xhehze4cwNyZWeoDH9h25s",
+          "createdAt": "2026-10-21T01:42:10.312Z",
+          "updatedAt": "2026-11-24T20:35:30.982Z",
+          "identifier": "Figure #05",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/fc8b8a38541ec0765ebb4b8288e6f23a.png",
+              "name": "The Man_2023_2.png",
+              "size": 936537,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 525,
+                "height": 656
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Figure #05",
+            "sort": 0,
+            "projectDate": "2023-03-23T01:14:29.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "rXVqr74AK7y3JALtB5nZkV",
+          "createdAt": "2026-10-21T01:40:48.013Z",
+          "updatedAt": "2026-11-24T20:38:39.511Z",
+          "identifier": "Figure #03",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/5f94c4d140402c8c67b1b035f3a64252.png",
+              "name": "Woman_2023.png",
+              "size": 933756,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 991,
+                "height": 1239
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Figure #03",
+            "sort": 0,
+            "projectDate": "2023-02-16T02:14:29.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "mojtSSgVBbBxAjtuoMrKEu",
+          "createdAt": "2026-10-21T01:29:16.290Z",
+          "updatedAt": "2026-11-24T20:37:24.032Z",
+          "identifier": "My Dorm Room",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/3a42c608da4ca8a69b8eb1f236e49e86.png",
+              "name": "My Dorm Room_2023.png",
+              "size": 1000122,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1462,
+                "height": 1100
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "My Dorm Room",
+            "sort": 0,
+            "projectDate": "2023-04-06T01:14:29.000Z",
+            "notes": "<p>Live Painting</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "tXLCJRwZM9suyzFy3hhFhM",
+          "createdAt": "2026-10-21T01:26:53.917Z",
+          "updatedAt": "2026-11-26T22:23:31.624Z",
+          "identifier": "Blue",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/1456b2e341afa934069d64357a6104d8.png",
+              "name": "Blue.png",
+              "size": 855553,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 918,
+                "height": 1148
+              }
+            },
+            "category": "ipPMqANqRf3xuSm5BjEBDf",
+            "title": "Blue",
+            "sort": 0,
+            "projectDate": "2023-10-05T01:14:29.000Z",
+            "notes": "<p>Illustration</p>\n<p>Medium: Watercolor</p>"
+          }
+        },
+        {
+          "id": "nNVxAQcgbAeEDZYvUpiHso",
+          "createdAt": "2026-10-21T01:26:00.805Z",
+          "updatedAt": "2026-11-25T20:44:47.324Z",
+          "identifier": "Self Covid Portrait",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/fce64a6a84e22d5e329301743e97c4d1.png",
+              "name": "Self Portrait Oil Color Fix.png",
+              "size": 999516,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1020,
+                "height": 1020
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Self Covid Portrait",
+            "sort": 0,
+            "projectDate": "2020-12-18T02:33:47.000Z",
+            "notes": "<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "qKShVrgpjArx7a8DgQfErT",
+          "createdAt": "2026-10-21T01:25:53.729Z",
+          "updatedAt": "2026-11-24T20:41:14.950Z",
+          "identifier": "Onion",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/bce9bf6cb651da9fc9cfec0740c0bf6f.png",
+              "name": "Onion_2023_Brighter.png",
+              "size": 860007,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 980,
+                "height": 1225
+              }
+            },
+            "category": "oTXUn4Dziyq9jZHJYppCmn",
+            "title": "Onion",
+            "sort": 0,
+            "projectDate": "2023-03-09T02:14:29.000Z",
+            "notes": "<p>Live Painting</p>\n<p>Medium: Oil</p>"
+          }
+        },
+        {
+          "id": "rFdiiUuYjaS3QPywn59PaV",
+          "createdAt": "2026-10-21T01:25:11.463Z",
+          "updatedAt": "2026-11-24T21:41:17.820Z",
+          "identifier": "Mama's Portrait",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/3f41b60264470665a6932e0de7b979ac.png",
+              "name": "Mama's Ink Portrait_2022.png",
+              "size": 996678,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1102,
+                "height": 1504
+              }
+            },
+            "category": "ebYokxQe1oL8pXGq336Wjb",
+            "title": "Mama's Ink Portrait",
+            "sort": 0,
+            "projectDate": "2022-03-17T01:14:29.000Z",
+            "notes": "<p>Medium: Ink</p>"
+          }
+        },
+        {
+          "id": "g8EfdLtz5sVzWByGzjqKaS",
+          "createdAt": "2026-10-21T01:23:48.211Z",
+          "updatedAt": "2026-11-24T21:41:57.637Z",
+          "identifier": "Self Portrait Collage",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/003b2870919b49ccb6d909d6aa67f5d5.png",
+              "name": "Collage Self Portrait_2022_Brighter.png",
+              "size": 962712,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 911,
+                "height": 1138
+              }
+            },
+            "category": "ebYokxQe1oL8pXGq336Wjb",
+            "title": "Self Portrait Collage",
+            "sort": 0,
+            "projectDate": "2022-03-11T02:14:29.000Z",
+            "notes": "<p>Medium: Paper Collage</p>"
+          }
+        },
+        {
+          "id": "kbMWm7wFgiXhP1AgQzVvLf",
+          "createdAt": "2026-10-21T01:01:56.679Z",
+          "updatedAt": "2026-11-24T21:43:16.201Z",
+          "identifier": "Piece of Bread",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/639541318512183e0d4aa7ddb3cdaae3.png",
+              "name": "Piece of bread_2022.png",
+              "size": 801288,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 933,
+                "height": 958
+              }
+            },
+            "category": "ip44LabajycKyqpFa4PSDz",
+            "title": "Piece of Bread",
+            "projectDate": "2022-03-11T02:36:52.000Z",
+            "notes": "<p>Live Study</p>\n<p>Medium: Graphite</p>"
+          }
+        },
+        {
+          "id": "wWbjJRo4fnh6iX4nc7fBew",
+          "createdAt": "2026-10-21T01:00:35.791Z",
+          "updatedAt": "2026-11-24T21:44:57.320Z",
+          "identifier": "Father's Portrait",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/5a6324d18428adcf6a3fe2956e226db0.png",
+              "name": "Father Bread_2022.png",
+              "size": 878673,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1016,
+                "height": 1018
+              }
+            },
+            "category": "ebYokxQe1oL8pXGq336Wjb",
+            "title": "Father's Portrait",
+            "projectDate": "2022-03-12T02:15:05.000Z",
+            "notes": "<p>Medium: Plasticine on Canvas</p>"
+          }
+        },
+        {
+          "id": "aFnGanmvoXaNeodTsVrgoy",
+          "createdAt": "2026-10-21T00:59:19.733Z",
+          "updatedAt": "2026-11-25T20:51:35.585Z",
+          "identifier": "Twombly",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/4756e687d6f3825ed8a2978d8779542e.png",
+              "name": "Twombly_2022 Brighter.png",
+              "size": 948130,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1800,
+                "height": 669
+              }
+            },
+            "category": "24FTBizGuCSAVZKE7r1srV",
+            "title": "Twombly Rosses",
+            "sort": 0,
+            "projectDate": "2022-03-10T02:38:06.000Z",
+            "notes": "<p>Inspired by Cy Twombly <span class=\"\" data-sfc-cp=\"\" data-sfc-root=\"c\"><span class=\"\" data-sfc-cp=\"\" data-sfc-root=\"c\" data-ved=\"2ahUKEwj_tvuD_6OYAxUuJDQIHbxLMKIQ0fERegoIAggACAAIExAD\" data-sfc-inited=\"2\"><span class=\"iNqyIf\" data-sfc-cp=\"\" data-sfc-root=\"c\">Blossoms<!--TgQPHd|||[]--></span><!--TgQPHd|||[false,&quot;&quot;,0,false,{&quot;u&quot;:0},false,{&quot;u&quot;:0},{&quot;u&quot;:0}]--></span><!--TgQPHd|||[]--><!--TgQPHd|||[]--></span> (2007)</p>\n<p>Medium: Acrylic on Paper</p>"
+          }
+        },
+        {
+          "id": "xu3nCHNH5bKFVXsGYU7Vcx",
+          "createdAt": "2026-10-21T00:58:28.308Z",
+          "updatedAt": "2026-11-25T21:40:02.893Z",
+          "identifier": "20 Self Portraits",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/ba6f2f535020ffec734eb713202d54f1.png",
+              "name": "Portrait Faces_2022_2.png",
+              "size": 1008178,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1046,
+                "height": 1381
+              }
+            },
+            "category": "24FTBizGuCSAVZKE7r1srV",
+            "title": "20 Self Portraits",
+            "sort": 0,
+            "projectDate": "2022-05-21T01:38:28.000Z",
+            "notes": "<p>Showcasing Everyday Motivation</p>\n<p>Meduim: Acrylic on Canvas</p>"
+          }
+        },
+        {
+          "id": "dDRsNQifmWh4M6VEd8wtfC",
+          "createdAt": "2026-10-21T00:56:50.662Z",
+          "updatedAt": "2026-11-25T20:55:56.476Z",
+          "identifier": "The Bunny Family Cookbook",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/00ff3cb871dff3b0035ae548f5b2bb99.png",
+              "name": "Bunny Cook Book_Cover_toc.png",
+              "size": 492725,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 5100,
+                "height": 3300
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "The Bunny Family Cookbook",
+            "sort": 0,
+            "projectDate": "2026-03-11T01:38:49.000Z",
+            "notes": "<p>Cover and Table of Contents</p>\n<p>Medium: Digital</p>"
+          }
+        },
+        {
+          "id": "dV8Lixi7BpeZDNaRm5VP1C",
+          "createdAt": "2026-10-21T00:55:14.923Z",
+          "updatedAt": "2026-11-25T20:58:29.505Z",
+          "identifier": "Sea What We Can Build",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/5ea469a9fca9c89886f252aae80e389c.png",
+              "name": "Board Exp3.png",
+              "size": 662772,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1500,
+                "height": 1500
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Sea What We Can Build",
+            "projectDate": "2025-12-11T02:39:06.000Z",
+            "notes": "<p>Board Collecting Data for a 4 Piece Exhibit</p>\n<p>Medium: Wood, Print, 3D Print</p>"
+          }
+        },
+        {
+          "id": "6ubjoMc56orv1AVz1tY7ix",
+          "createdAt": "2026-10-21T00:49:20.392Z",
+          "updatedAt": "2026-11-25T21:08:02.309Z",
+          "identifier": "SIFF Girl",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/1a056fe5ce1b274e38454e3e0b2e17b1.png",
+              "name": "Sharevich_Olga_SIFF Girl Poster_Final 150ppi.png",
+              "size": 4511340,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 3600,
+                "height": 5400
+              }
+            },
+            "category": "ssxknMr9btEqH6YA5TX6FE",
+            "title": "SIFF Girl",
+            "sort": 0,
+            "projectDate": "2026-02-12T02:39:38.000Z",
+            "notes": "<p>Poster for an Independent Film Festival</p>\n<p>Medium: Digital</p>"
+          }
+        },
+        {
+          "id": "ae5SPN4i86UsMiWXhhsTZW",
+          "createdAt": "2026-10-21T00:47:22.377Z",
+          "updatedAt": "2026-11-25T21:06:26.933Z",
+          "identifier": "Donut Shop",
+          "data": {
+            "image": {
+              "url": "https://site-assets.plasmic.app/22a132d6cc9aa82579054c5ca0c21042.png",
+              "name": "Donut Shop Model_2024.png",
+              "size": 765242,
+              "mimetype": "image/png",
+              "imageMeta": {
+                "width": 1332,
+                "height": 1332
+              }
+            },
+            "category": "aAZkuccdKoWxhYde8JsPsd",
+            "title": "Donut Shop",
+            "sort": 0,
+            "projectDate": "2024-12-21T02:39:55.000Z",
+            "notes": "<p>Model Depicting Donut Shop out of two Shipping Containers&nbsp;</p>\n<p>Meduim: Laser-cutter, Task board</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
