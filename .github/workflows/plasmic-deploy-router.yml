@@ -4,6 +4,12 @@ on:
     types: [plasmic-publish]
 
 jobs:
+  snapshot:
+    permissions:
+      contents: write
+    uses: ./.github/workflows/plasmic-snapshot.yml
+    secrets: inherit
+
   route:
     runs-on: ubuntu-latest
     env:
