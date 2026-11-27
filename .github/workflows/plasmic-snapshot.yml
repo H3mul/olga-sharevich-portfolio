@@ -31,6 +31,8 @@ jobs:
             > "snapshots/project-$(date +%Y%m%d-%H%M%S).json"
       - name: Pull CMS
         run: node scripts/cms.mjs pull "snapshots/cms/cms-$(date +%Y%m%d-%H%M%S).json"
+      - name: Prune old snapshots
+        run: node scripts/prune-snapshots.mjs
       - name: Commit snapshots
         run: |
           git config user.name "github-actions[bot]"
